@@ -17,22 +17,14 @@ public class BracketMatching {
             String firstHalf = brackets.substring(0, (brackets.length() / 2));
             String secondHalf = brackets.substring((brackets.length() / 2));
 
-            String secondHalf2 = "";
-            String secondHalf3 = "";
-            String secondHalf4 = "";
-
-            if (secondHalf.indexOf('[') > 0){
-                secondHalf2 = secondHalf.replaceAll("\\[", "]");
-            }
-            if (secondHalf.indexOf('(') > 0){
-                secondHalf3 = secondHalf2.replaceAll("\\(", ")");
-            }
-            if (secondHalf.indexOf('(') > 0){
-                secondHalf4 = secondHalf3.replaceAll("\\{", "}");
-            }
+            String stage1 = new StringBuilder(firstHalf).reverse().toString();
+               String stage2 = stage1.replaceAll("\\[", "]");
+               String stage3 = stage2.replaceAll("\\(", ")");
+               String stage4 = stage3.replaceAll("\\{", "}");
 
 
-            return ( new StringBuilder(firstHalf).reverse().toString() == secondHalf4);
+
+            return ( secondHalf == stage4);
 
 
         } else {
