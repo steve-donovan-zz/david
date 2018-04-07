@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="02882cfe-0198-4e87-99e5-bcd34b55167c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/davids-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/davids-tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NextLargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NextLargestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/BracketMatchingTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NextLargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NextLargestNumber.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +26,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="323">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
@@ -27,8 +35,8 @@
       <file leaf-file-name="BracketMatching.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="33" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="33" />
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="14" selection-start-column="6" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -36,7 +44,7 @@
       <file leaf-file-name="BracketMatching2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="493">
               <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
             </state>
           </provider>
@@ -45,17 +53,19 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="771" selection-start-line="771" selection-end-line="771" />
+            <state relative-caret-position="13107">
+              <caret line="792" selection-start-line="792" selection-end-line="792" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BracketMatchingTest2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java">
+      <file leaf-file-name="BracketMatchingTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,17 +73,17 @@
       <file leaf-file-name="IntegerEqualityCheck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IntegerEqualityCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="51">
               <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NextLargestNumber.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NextLargestNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/NextLargestNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -127,10 +137,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="967" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="232" />
+    <option name="y" value="62" />
+    <option name="width" value="3570" />
+    <option name="height" value="1910" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -185,70 +196,57 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="b2602c69:ProjectViewProjectNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="b2602c69:ProjectViewProjectNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="b2602c69:ProjectViewProjectNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="b2602c69:ProjectViewProjectNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="b2602c69:ProjectViewProjectNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BracketMatchingTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
@@ -265,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BracketMatchingTest2">
+  <component name="RunManager" selected="JUnit.NextLargestNumberTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -287,7 +285,7 @@
       <patterns />
     </configuration>
     <configuration name="BracketMatchingTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="davidstests" />
+      <module name="david" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -307,8 +305,25 @@
       <module name="david" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="java" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IntegerEqualityCheckTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NextLargestNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="david" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NextLargestNumberTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -362,9 +377,11 @@
       <item itemvalue="JUnit.IntegerEqualityCheckTest" />
       <item itemvalue="JUnit.BracketMatchingTest" />
       <item itemvalue="JUnit.BracketMatchingTest2" />
+      <item itemvalue="JUnit.NextLargestNumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NextLargestNumberTest" />
         <item itemvalue="JUnit.BracketMatchingTest2" />
         <item itemvalue="JUnit.BracketMatchingTest" />
         <item itemvalue="JUnit.IntegerEqualityCheckTest" />
@@ -387,9 +404,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegerEqualityCheckTest - 2018.04.06 at 11h 58m 04s.xml">
-      <configuration name="IntegerEqualityCheckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntegerEqualityCheckTest - 2018.04.06 at 12h 00m 56s.xml">
       <configuration name="IntegerEqualityCheckTest" configurationId="JUnit" />
     </history-entry>
@@ -417,64 +431,46 @@
     <history-entry file="BracketMatchingTest2 - 2018.04.07 at 20h 54m 55s.xml">
       <configuration name="BracketMatchingTest2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NextLargestNumberTest - 2018.04.07 at 18h 42m 05s.xml">
+      <configuration name="NextLargestNumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="277000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
+    <frame x="93" y="25" width="1428" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32988507" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32988507" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37777779" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33058307" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
-      <window_info id="Learn" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35839415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="PlantUML" order="3" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33058307" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37871674" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286385" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32469636" />
+      <window_info id="Learn" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +518,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
@@ -553,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
@@ -563,7 +559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -573,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -590,7 +586,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
@@ -606,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="771" selection-start-line="771" selection-end-line="771" />
+        <state relative-caret-position="13107">
+          <caret line="792" selection-start-line="792" selection-end-line="792" />
         </state>
       </provider>
     </entry>
@@ -667,10 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java" />
     <entry file="file://$PROJECT_DIR$/davidstests.iml" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -692,7 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NextLargestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -700,8 +696,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" />
     <entry file="file://$PROJECT_DIR$/davidstests.iml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -724,7 +720,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NextLargestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -732,33 +728,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/NextLargestNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/NextLargestNumberTest.java" />
     <entry file="file://$PROJECT_DIR$/davidstests.iml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/IntegerEqualityCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="51">
           <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/IntegerEqualityCheckTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/IntegerEqualityCheckTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -769,14 +758,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="33" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="33" />
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="14" selection-start-column="6" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="493">
           <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
@@ -788,10 +777,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/BracketMatchingTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NextLargestNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
