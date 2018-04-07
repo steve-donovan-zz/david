@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02882cfe-0198-4e87-99e5-bcd34b55167c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BracketMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BracketMatching.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,26 +36,26 @@
       <file leaf-file-name="BracketMatching2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="402">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="572" selection-start-line="572" selection-end-line="572" />
+            <state relative-caret-position="370">
+              <caret line="771" selection-start-line="771" selection-end-line="771" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BracketMatchingTest2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BracketMatchingTest2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -89,6 +87,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BracketMatching</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>BracketMatching2</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -103,6 +109,8 @@
         <option value="$PROJECT_DIR$/src/main/test/java/NextLargestNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/IntegerEqualityCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/BracketMatching.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BracketMatching2.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java" />
       </list>
     </option>
   </component>
@@ -119,11 +127,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="355" />
-    <option name="y" value="112" />
-    <option name="width" value="3118" />
-    <option name="height" value="1875" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -217,6 +224,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="davidstests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="davidstests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BracketMatchingTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -371,12 +387,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BracketMatchingTest - 2018.04.06 at 16h 30m 57s.xml">
-      <configuration name="BracketMatchingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegerEqualityCheckTest - 2018.04.06 at 11h 53m 50s.xml">
-      <configuration name="IntegerEqualityCheckTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntegerEqualityCheckTest - 2018.04.06 at 11h 58m 04s.xml">
       <configuration name="IntegerEqualityCheckTest" configurationId="JUnit" />
     </history-entry>
@@ -398,6 +408,15 @@
     <history-entry file="BracketMatchingTest - 2018.04.07 at 11h 46m 10s.xml">
       <configuration name="BracketMatchingTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BracketMatchingTest2 - 2018.04.07 at 20h 53m 16s.xml">
+      <configuration name="BracketMatchingTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BracketMatchingTest2 - 2018.04.07 at 20h 53m 48s.xml">
+      <configuration name="BracketMatchingTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BracketMatchingTest2 - 2018.04.07 at 20h 54m 55s.xml">
+      <configuration name="BracketMatchingTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="277000" />
@@ -416,10 +435,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32988507" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988507" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988507" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -594,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="572" selection-start-line="572" selection-end-line="572" />
+        <state relative-caret-position="370">
+          <caret line="771" selection-start-line="771" selection-end-line="771" />
         </state>
       </provider>
     </entry>
@@ -764,15 +776,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BracketMatching2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="402">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/BracketMatchingTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

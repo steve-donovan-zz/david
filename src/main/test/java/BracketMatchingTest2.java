@@ -16,6 +16,7 @@ public class BracketMatchingTest2 {
         assertTrue(BracketMatching2.isValidMatch("(([]))"));
         assertTrue(BracketMatching2.isValidMatch("[]()"));
         assertTrue(BracketMatching2.isValidMatch("([]{})"));
+        assertTrue(BracketMatching2.isValidMatch("(()[][{}{}])"));
 
         assertFalse(BracketMatching2.isValidMatch("("));
         assertFalse(BracketMatching2.isValidMatch("{"));
