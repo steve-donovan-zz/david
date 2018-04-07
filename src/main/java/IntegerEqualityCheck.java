@@ -6,6 +6,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public class IntegerEqualityCheck {
 
     public static boolean isEqual(Integer a, Integer b) {
-        throw new NotImplementedException();
+
+       return (a.compareTo(b) == 0);
     }
 }
