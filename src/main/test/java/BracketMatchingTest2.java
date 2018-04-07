@@ -8,26 +8,26 @@ public class BracketMatchingTest2 {
     @Test
     public void test() {
 
-        assertTrue(BracketMatching.isValidMatch("()"));
-        assertTrue(BracketMatching.isValidMatch("[]"));
-        assertTrue(BracketMatching.isValidMatch("()"));
+        assertTrue(BracketMatching2.isValidMatch("()"));
+        assertTrue(BracketMatching2.isValidMatch("[]"));
+        assertTrue(BracketMatching2.isValidMatch("()"));
 
-        assertTrue(BracketMatching.isValidMatch("([])"));
-        assertTrue(BracketMatching.isValidMatch("(([]))"));
-        assertTrue(BracketMatching.isValidMatch("[]()"));
-        assertTrue(BracketMatching.isValidMatch("([]{})"));
+        assertTrue(BracketMatching2.isValidMatch("([])"));
+        assertTrue(BracketMatching2.isValidMatch("(([]))"));
+        assertTrue(BracketMatching2.isValidMatch("[]()"));
+        assertTrue(BracketMatching2.isValidMatch("([]{})"));
 
-        assertFalse(BracketMatching.isValidMatch("("));
-        assertFalse(BracketMatching.isValidMatch("{"));
-        assertFalse(BracketMatching.isValidMatch("["));
+        assertFalse(BracketMatching2.isValidMatch("("));
+        assertFalse(BracketMatching2.isValidMatch("{"));
+        assertFalse(BracketMatching2.isValidMatch("["));
 
-        assertFalse(BracketMatching.isValidMatch(")"));
-        assertFalse(BracketMatching.isValidMatch("}"));
-        assertFalse(BracketMatching.isValidMatch("]"));
+        assertFalse(BracketMatching2.isValidMatch(")"));
+        assertFalse(BracketMatching2.isValidMatch("}"));
+        assertFalse(BracketMatching2.isValidMatch("]"));
 
-        assertFalse(BracketMatching.isValidMatch("(]"));
-        assertFalse(BracketMatching.isValidMatch("[}"));
-        assertFalse(BracketMatching.isValidMatch("(])"));
+        assertFalse(BracketMatching2.isValidMatch("(]"));
+        assertFalse(BracketMatching2.isValidMatch("[}"));
+        assertFalse(BracketMatching2.isValidMatch("(])"));
 
     }
 }
