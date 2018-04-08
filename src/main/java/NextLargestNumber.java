@@ -18,6 +18,13 @@ public class NextLargestNumber {
 
     public static int generateNextLargestNumber(int n) {
 
+        // CLUE 1: find the maximum possible number it could be
+        // hint : you will need to sort something into descending order
+
+        // CLUE 2: you simply need to increment from 'n' to the maximum possible number
+        // checking that the new number generated contains the same digits as 'n'
+        // hint : you only need 1 for loop in this solution
+
         String numS = String.valueOf(n);
         ArrayList<String> allPossibleCombos = new ArrayList<String>();
 
