@@ -1,4 +1,7 @@
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
+
+import java.util.HashMap;
+import java.util.Stack;
 
 
 /*
@@ -15,24 +18,29 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 public class BracketMatching2 {
 
     public static boolean isValidMatch(String brackets) {
-        if (brackets.length() % 2 == 0) {
 
-            String firstHalf = brackets.substring(0, (brackets.length() / 2));
-            String secondHalf = brackets.substring((brackets.length() / 2));
+        HashMap<Character, Character> map = new HashMap<Character, Character>();
+        map.put('(', ')');
+        map.put('[', ']');
+        map.put('{', '}');
 
-            String stage1 = new StringBuilder(firstHalf).reverse().toString();
-            String stage2 = stage1.replaceAll("\\[", "]");
-            String stage3 = stage2.replaceAll("\\(", ")");
-            String stage4 = stage3.replaceAll("\\{", "}");
+        Stack<Character> stack = new Stack<Character>();
 
+        for (int i = 0; i < brackets.length(); i++) {
+            char curr = brackets.charAt(i);
 
-
-            return ( secondHalf.equals(stage4));
-
-
-        } else {
-            return false;
+            if (map.keySet().contains(curr)) {
+                stack.push(curr);
+            } else if (map.values().contains(curr)) {
+                if (!stack.empty() && map.get(stack.peek()) == curr) {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+            }
         }
 
+        return stack.empty();
     }
+
 }

@@ -1,10 +1,10 @@
 
 
-import org.apache.commons.lang.ArrayUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 /*
  * Given a number, find the next largest number using the same digits as the number provided. If a larger number cant be
@@ -25,62 +25,58 @@ public class NextLargestNumber {
         // checking that the new number generated contains the same digits as 'n'
         // hint : you only need 1 for loop in this solution
 
-        String numS = String.valueOf(n);
-        ArrayList<String> allPossibleCombos = new ArrayList<String>();
 
-        for (int i = 0; i < numS.length(); i++) {
+        int num = n;
+        char[] numArray = String.valueOf(num).toCharArray();
+        Arrays.sort(numArray);
+        int backup = num;
+        List<Integer> digits = new ArrayList<Integer>();
 
-            int lastIndex = numS.length() - 1;
-            String last = numS.substring(lastIndex);
-            String rest = numS.substring(0, lastIndex);
-            String num = last + rest;
-
-            char[] numArray = num.toCharArray();
-            Random rand = new Random();
-            int position = rand.nextInt(num.length());
-
-            char[] digits = new char[num.length()];
-
-
-            for (int d = 0; d < num.length(); d++) {
-
-                digits[position] = numArray[d];
-                char x = numArray[d];
-
-                numArray = ArrayUtils.removeElement(numArray, x);
-
-            }
-
-            String newDigitCombo = String.valueOf(digits);
-
-            allPossibleCombos.add(newDigitCombo);
-
+        while (num > 0) {
+            int lastNum = num % 10;
+            digits.add(lastNum);
+            num = num / 10;
         }
 
-        List<Integer> arrayOfInts = new ArrayList<Integer>();
-        for (Object str : allPossibleCombos) {
-            arrayOfInts.add(Integer.parseInt((String) str));
-        }
+        Collections.sort(digits);
+        Collections.reverse(digits);
 
-        List<Integer> greaterArray = new ArrayList<Integer>();
-        {
-            for(int a = 0; a < arrayOfInts.size(); a++){
-                int x = arrayOfInts.get(a);
-                if(x > n){
-                    greaterArray.add(x);
+
+        StringBuilder builder = new StringBuilder();
+        for (int i : digits) {
+            builder.append(i);
+        }
+        String maxNumS = builder.toString();
+        int maxNum = Integer.parseInt(maxNumS);
+
+
+        int result = 0;
+
+        if (backup == maxNum) {
+            result = -1;
+        } else {
+            for (int i = backup + 1; i <= maxNum; i++) {
+
+                char[] numbers = String.valueOf(i).toCharArray();
+                Arrays.sort(numbers);
+                if (Arrays.equals(numArray, numbers)) {
+                    result = i;
+                    break;
                 }
             }
+
         }
 
-        int result = greaterArray.get(0);
 
-        if (result == 0){
-            return -1;
-        }
-        else
-        {
-            return result;
-        }
+        return result;
 
     }
+
+
 }
+
+
+
+
+
+
